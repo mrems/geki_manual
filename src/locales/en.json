@@ -1,0 +1,53 @@
+{
+  "header": {
+    "title": "User Manual"
+  },
+  "manualContent": {
+    "analysisModels": {
+      "title": "Analysis Model Summary",
+      "standardModel": {
+        "title": "Standard Model",
+        "description": "Cost: 1<br/>Speed: Very Fast<br/>Reflection: Low<br/>Usage: First Choice for clear and sharp photos (80% of cases)."
+      },
+      "advancedModel": {
+        "title": "Advanced Model",
+        "description": "Cost: 2<br/>Speed: Fast<br/>Reflection: In-depth<br/>Usage: Backup Option for blurry or difficult photos (if Model 1 fails)."
+      },
+      "expertModel": {
+        "title": "Expert Model",
+        "description": "Cost: 10<br/>Speed: Slow<br/>Reflection: Maximum<br/>Usage: Last Resort for very rare and complex cases only."
+      }
+    },
+    "creditsUsage": {
+      "title": "Smart Credit Usage",
+      "objective": "Your goal is to solve your identification with Model 1.",
+      "goldenRule": {
+        "title": "The Golden Rule: Image Quality",
+        "instruction": "First and foremost, make sure your photo is sharp, well-lit, and that the subject fills the frame.",
+        "explanation": "Why? Model 1 does not have much reflection. If it fails due to a bad photo, you will be forced to switch to Model 2, wasting 1 Credit. A good photo is the best way to save."
+      }
+    },
+    "identificationStrategy": {
+      "title": "The Identification Strategy",
+      "note": "Note that Models 1 and 2 alone solve the vast majority of identification cases.",
+      "step1": "Start with Model 1. (The most economical and fastest).",
+      "step2": "If the answer is unsatisfactory: Switch to Model 2. (It will solve almost all Model 1 failures thanks to its in-depth reflection).",
+      "lastResort": {
+        "title": "Last Resort: Model 3",
+        "usage": "Usage: Only for very complex cases that Models 1 and 2 could not solve. Use it with great caution."
+      }
+    },
+    "imageIdentificationLimits": {
+      "title": "Limitations of Image Identification",
+      "introduction": "Image identification is a powerful tool, but it has its limits. Be aware of the following challenges:",
+      "whyNotAbsolute": {
+        "title": "Why identification is never absolute:",
+        "expertDifficulty": "Even the greatest nature specialists are often unable to pronounce with absolute certainty on a simple image, especially for very similar species.",
+        "youngPlants": "Young Plants: Plants do not yet have all the visible characteristics of adulthood, making their early identification very difficult.",
+        "closeRelatives": "Close Relatives: Difficult to distinguish between very similar species when their points of divergence are extremely subtle.",
+        "naturalDiversity": "Natural Diversity: Nature is immense (especially insects). The number of known subjects is so vast that distinguishing between them is extremely complex, even for experts."
+      },
+      "conclusion": "Despite all these limitations, You have in your hands the most powerful and fastest guide to explore the world around you!"
+    }
+  }
+}

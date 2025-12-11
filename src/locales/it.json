@@ -1,0 +1,53 @@
+{
+  "header": {
+    "title": "Manuale Utente"
+  },
+  "manualContent": {
+    "analysisModels": {
+      "title": "Riepilogo dei Modelli di Analisi",
+      "standardModel": {
+        "title": "Modello Standard",
+        "description": "Costo: 1<br/>Velocità: Molto Veloce<br/>Riflessione: Bassa<br/>Utilizzo: Prima Scelta per foto nitide e chiare (80% dei casi)."
+      },
+      "advancedModel": {
+        "title": "Modello Avanzato",
+        "description": "Costo: 2<br/>Velocità: Veloce<br/>Riflessione: Approfondita<br/>Utilizzo: Opzione di Backup per foto sfocate o difficili (se il Modello 1 fallisce)."
+      },
+      "expertModel": {
+        "title": "Modello Esperto",
+        "description": "Costo: 10<br/>Velocità: Lenta<br/>Riflessione: Massima<br/>Utilizzo: Ultima Risorsa solo per casi molto rari e complessi."
+      }
+    },
+    "creditsUsage": {
+      "title": "Utilizzare i Crediti in Modo Intelligente",
+      "objective": "Il tuo obiettivo è risolvere la tua identificazione con il Modello 1.",
+      "goldenRule": {
+        "title": "La Regola d'Oro: Qualità dell'Immagine",
+        "instruction": "Prima di tutto, assicurati che la tua foto sia nitida, ben illuminata e che il soggetto riempia bene l'inquadratura.",
+        "explanation": "Perché? Il Modello 1 non ha molta riflessione. Se fallisce a causa di una brutta foto, sarai costretto a passare al Modello 2, sprecando 1 Credito. Una buona foto è il modo migliore per risparmiare."
+      }
+    },
+    "identificationStrategy": {
+      "title": "La Strategia di Identificazione",
+      "note": "Si noti che i Modelli 1 e 2 da soli risolvono la stragrande maggioranza dei casi di identificazione.",
+      "step1": "Inizia con il Modello 1. (Il più economico e veloce).",
+      "step2": "Se la risposta non è soddisfacente: Passa al Modello 2. (Risolverà quasi tutti i fallimenti del Modello 1 grazie alla sua riflessione approfondita).",
+      "lastResort": {
+        "title": "Ultima Risorsa: Modello 3",
+        "usage": "Utilizzo: Solo per casi molto complessi che i Modelli 1 e 2 non sono riusciti a risolvere. Usalo con grande cautela."
+      }
+    },
+    "imageIdentificationLimits": {
+      "title": "Limiti dell'Identificazione tramite Immagine",
+      "introduction": "L'identificazione tramite immagine è uno strumento potente, ma ha i suoi limiti. Sii consapevole delle seguenti sfide:",
+      "whyNotAbsolute": {
+        "title": "Perché l'identificazione non è mai assoluta:",
+        "expertDifficulty": "Anche i maggiori specialisti della natura sono spesso incapaci di pronunciarsi con assoluta certezza su una semplice immagine, soprattutto per specie molto simili.",
+        "youngPlants": "Piante Giovani: Le piante non hanno ancora tutte le caratteristiche visibili nell'età adulta, rendendo la loro identificazione precoce molto difficile.",
+        "closeRelatives": "Parenti Stretti: Difficile distinguere tra specie molto simili quando i loro punti di divergenza sono estremamente sottili.",
+        "naturalDiversity": "Diversità Naturale: La natura è immensa (specialmente gli insetti). Il numero di soggetti conosciuti è così vasto che la distinzione tra di loro è estremamente complessa, anche per gli esperti."
+      },
+      "conclusion": "Nonostante tutti questi limiti, hai tra le mani la guida più potente e veloce per esplorare il mondo che ti circonda!"
+    }
+  }
+}
