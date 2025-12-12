@@ -21,8 +21,8 @@ function LanguageSwitcher() {
         fontSize: '12px',
       }}
     >
-      <option value="fr">Français</option>
       <option value="en">English</option>
+      <option value="fr">Français</option>
       <option value="es">Español</option>
       <option value="it">Italiano</option>
       <option value="pt">Português</option>
@@ -31,6 +31,7 @@ function LanguageSwitcher() {
       <option value="ar">العربية</option>
       <option value="ja">日本語</option>
       <option value="ko">한국어</option>
+      <option value="hi">हिन्दी</option>
     </select>
   );
 }

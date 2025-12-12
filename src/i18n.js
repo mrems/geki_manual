@@ -11,6 +11,7 @@ import translationZH from './locales/zh.json';
 import translationAR from './locales/ar.json';
 import translationJA from './locales/ja.json';
 import translationKO from './locales/ko.json';
+import translationHI from './locales/hi.json';
 
 i18n
   .use(initReactI18next)
@@ -45,10 +46,13 @@ i18n
       },
       ko: {
         translation: translationKO
+      },
+      hi: {
+        translation: translationHI
       }
     },
-    lng: 'fr', // langue par défaut
-    fallbackLng: 'fr',
+    lng: 'en', // langue par défaut
+    fallbackLng: 'en',
 
     interpolation: {
       escapeValue: false // react already safes from xss
