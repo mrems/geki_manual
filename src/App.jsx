@@ -1,9 +1,18 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Outlet, useNavigate } from 'react-router-dom';
 import gekiTitle from './assets/geki_title.png'; // Importation du logo
 import LanguageSwitcher from './LanguageSwitcher.jsx'; // Importation du LanguageSwitcher
 
 function App() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (sessionStorage.redirect) {
+      navigate(sessionStorage.redirect);
+      sessionStorage.clear();
+    }
+  }, [navigate]);
+
   return (
     <div 
       className="manual-container"

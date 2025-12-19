@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script takes the current url and converts the path and query string into just the path and stores it in the sessionStorage
+      // It then redirects to the root of the site (e.g. `https://your-username.github.io/your-repo/`) to ensure that `index.html` is always served
+      // This is necessary because GitHub Pages only serves `index.html` for requests to the root of the site, but not for requests to subdirectories.
+      // Once `index.html` has been served, the SPA router (e.g. `react-router-dom`) will take over and use the stored path to render the correct content.
+      (function() {
+        var path = window.location.pathname.replace('/geki_manual', ''); // Remove basename from path
+        var query = window.location.search;
+        sessionStorage.redirect = path + query;
+        window.location.replace('/geki_manual/'); // Redirect to the root of the basename
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- Si la redirection JavaScript ne fonctionne pas, afficher un message d'erreur -->
+    <h1>Redirection en cours...</h1>
+    <p>Si vous n'êtes pas redirigé, veuillez <a href="/geki_manual/">cliquer ici</a>.</p>
+  </body>
+</html>
+
