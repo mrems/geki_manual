@@ -150,4 +150,12 @@ p.bold {
   .header-image {
     height: 30px; 
   }
-}
+
+  ul {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }}

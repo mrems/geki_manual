@@ -1,5 +1,5 @@
 import React from 'react';
-import ManualContent from './ManualContent.jsx';
+import { Outlet } from 'react-router-dom';
 import gekiTitle from './assets/geki_title.png'; // Importation du logo
 import LanguageSwitcher from './LanguageSwitcher.jsx'; // Importation du LanguageSwitcher
 
@@ -36,7 +36,7 @@ function App() {
         />
         <LanguageSwitcher />
       </div>
-      <ManualContent />
+      <Outlet />
     </div>
   );
 }
